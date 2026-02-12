@@ -10,6 +10,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
+
       - name: Test container
         run: |
         # Run the container in detached mode
